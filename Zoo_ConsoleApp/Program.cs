@@ -33,6 +33,9 @@ namespace Zoo_ConsoleApp
 
             Mariehøne mariehøne = new Mariehøne(0.0035, "Han");
             Console.WriteLine(mariehøne);
+
+            Flyvefisk flyvefisk = new Flyvefisk(0.1, "Hun", 28);
+            Console.WriteLine(flyvefisk);
         }
     }
 }
