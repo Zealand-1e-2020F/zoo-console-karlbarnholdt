@@ -11,6 +11,9 @@ namespace Zoo_ConsoleApp
         {
             ErPeterPlys = erPeterPlys;
         }
-
+        public override string ToString()
+        {
+            return base.ToString() + $" Denne bjørn er Peter Plys: {ErPeterPlys}.";
+        }
     }
 }
