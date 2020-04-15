@@ -7,7 +7,7 @@ namespace Zoo_ConsoleApp
     class Elefant : Pattedyr
     {
         public int LængdePåStødtænderIcm { get; }
-        public Elefant(double vægt, int længdePåStødtænderIcm) : base("Elefant", vægt, false)
+        public Elefant(double vægt, string køn, int længdePåStødtænderIcm) : base("Elefant", vægt, køn, false)
         {
             LængdePåStødtænderIcm = længdePåStødtænderIcm;
         }

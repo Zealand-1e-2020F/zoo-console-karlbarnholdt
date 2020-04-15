@@ -7,7 +7,7 @@ namespace Zoo_ConsoleApp
     {
         static void Main(string[] args)
         {
-            Elefant elefant = new Elefant(5000, 60);
+            Elefant elefant = new Elefant(5000, "Han", 60);
             Console.WriteLine(elefant);
         }
     }

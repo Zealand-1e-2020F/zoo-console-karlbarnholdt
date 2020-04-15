@@ -4,7 +4,8 @@ using System.Text;
 
 namespace Zoo_ConsoleApp
 {
-    class Class1
+    public class Tiger
     {
+
     }
 }

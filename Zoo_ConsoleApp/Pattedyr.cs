@@ -9,7 +9,7 @@ namespace Zoo_ConsoleApp
         public bool LæggerÆg { get; }
         public Pattedyr(string navn, double vægt, string køn, bool læggerÆg) : base(navn, vægt, køn)
         {
-            læggerÆg = LæggerÆg;
+            LæggerÆg = læggerÆg;
         }
 
         public override string ToString()
