@@ -21,6 +21,10 @@ namespace Zoo_ConsoleApp
             this.Weight = vægt;
         }
 
+        public override string ToString()
+        {
+            return $"En {Name} vejer {Weight} kg.";
+        }
 
     }
 }

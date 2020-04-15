@@ -13,7 +13,11 @@ namespace Zoo_ConsoleApp
             Pattedyr ulv = new Pattedyr("Ulv", 40);
 
 
-            Console.WriteLine(elefant.Name);
+            Console.WriteLine(elefant);
+            Console.WriteLine(tiger);
+            Console.WriteLine(vildsvin);
+            Console.WriteLine(hest);
+            Console.WriteLine(ulv);
 
         }
     }
