@@ -19,6 +19,10 @@ namespace Zoo_ConsoleApp
 
         }
 
+        /// <summary>
+        /// cosntructor som tager dyrenavn som parameter
+        /// </summary>
+        /// <param name="navn">navnet på typen af dyr</param>
         public Dyr(string navn)
         {
             this.DyreNavn = navn;

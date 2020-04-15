@@ -6,7 +6,7 @@ namespace Zoo_ConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello Zoo!");
 
             Dyr elefant = new Dyr("Elefant");
 
