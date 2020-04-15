@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Zoo_ConsoleApp
 {
-    class Elefant : Pattedyr
+    class Elefant : Pattedyr, IByttedyr
     {
         public int LængdePåStødtænderIcm { get; }
         public Elefant(double vægt, string køn, int længdePåStødtænderIcm) : base("Elefant", vægt, køn, false)
@@ -15,6 +15,10 @@ namespace Zoo_ConsoleApp
         public override string ToString()
         {
             return base.ToString() + $" Denne elefants stødtænder er {LængdePåStødtænderIcm} cm.";
+        }
+        public bool ErByttedyr()
+        {
+            return true;
         }
     }
 }
