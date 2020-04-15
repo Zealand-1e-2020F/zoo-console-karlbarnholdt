@@ -11,5 +11,9 @@ namespace Zoo_ConsoleApp
         {
             Længde = længde;
         }
+        public override string ToString()
+        {
+            return base.ToString() + $" Den er {Længde} cm lang.";
+        }
     }
 }
