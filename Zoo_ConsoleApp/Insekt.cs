@@ -11,5 +11,9 @@ namespace Zoo_ConsoleApp
         {
             ErGiftig = erGiftig;
         }
+        public override string ToString()
+        {
+            return base.ToString() + $" Denne {base.Name} er giftig: {ErGiftig}.";
+        }
     }
 }
