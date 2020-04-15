@@ -19,7 +19,7 @@ namespace Zoo_ConsoleApp
         public Dyr(string navn, double vægt)
         {
             this.Name = navn;
-
+            this.Weight = vægt;
         }
 
 
