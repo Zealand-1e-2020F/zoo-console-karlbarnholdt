@@ -6,9 +6,10 @@ namespace Zoo_ConsoleApp
 {
     public class Fisk : Dyr
     {
-        public Fisk(string navn, double vægt) : base(navn, vægt)
+        public int Lenght { get; }
+        public Fisk(string navn, int længde, double vægt) : base(navn, vægt)
         {
-
+            længde = Lenght;
         }
     }
 }
