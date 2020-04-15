@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Zoo_ConsoleApp
 {
@@ -24,14 +25,27 @@ namespace Zoo_ConsoleApp
             Fisk hvalhaj = new Fisk("Hvalhaj", 20000);
             Fisk klovnefisk = new Fisk("Klovnefisk", 0.24);
 
+            List<Dyr> dyr = new List<Dyr>();
+            dyr.Add(elefant);
+            dyr.Add(tiger);
+            dyr.Add(vildsvin);
+            dyr.Add(hest);
+            dyr.Add(ulv);
+            dyr.Add(myg);
+            dyr.Add(flue);
+            dyr.Add(hveps);
+            dyr.Add(bille);
+            dyr.Add(myre);
+            dyr.Add(torsk);
+            dyr.Add(laks);
+            dyr.Add(haj);
+            dyr.Add(hvalhaj);
+            dyr.Add(klovnefisk);
 
-            Console.WriteLine(elefant);
-            Console.WriteLine(tiger);
-            Console.WriteLine(vildsvin);
-            Console.WriteLine(hest);
-            Console.WriteLine(ulv);
-
-            Console.WriteLine();
+            foreach (var item in dyr)
+            {
+                Console.WriteLine(item.ToString());
+            }
 
         }
     }
