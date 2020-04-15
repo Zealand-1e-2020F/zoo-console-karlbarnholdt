@@ -36,6 +36,9 @@ namespace Zoo_ConsoleApp
 
             Flyvefisk flyvefisk = new Flyvefisk(0.1, "Hun", 28);
             Console.WriteLine(flyvefisk);
+
+            Hammerhaj hammerhaj = new Hammerhaj(280, "Hun", 220);
+            Console.WriteLine(hammerhaj);
         }
     }
 }
