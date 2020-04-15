@@ -16,8 +16,11 @@ namespace Zoo_ConsoleApp
             Næbdyr næbdyr = new Næbdyr(28, "Han");
             Console.WriteLine(næbdyr);
 
-            Bjørn bjørn = new Bjørn(190, "Hun");
+            Bjørn bjørn = new Bjørn(190, "Hun", false);
             Console.WriteLine(bjørn);
+
+            Bjørn peterPlys = new Bjørn(45, "Han", true);
+            Console.WriteLine(peterPlys);
         }
     }
 }
