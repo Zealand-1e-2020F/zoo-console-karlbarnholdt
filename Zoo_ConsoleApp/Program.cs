@@ -24,6 +24,9 @@ namespace Zoo_ConsoleApp
 
             Flue flue = new Flue(0.001, "Han");
             Console.WriteLine(flue);
+
+            Hveps hveps = new Hveps(0.003, "Hun");
+            Console.WriteLine(hveps);
         }
     }
 }
