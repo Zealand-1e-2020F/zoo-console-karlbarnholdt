@@ -39,6 +39,9 @@ namespace Zoo_ConsoleApp
 
             Hammerhaj hammerhaj = new Hammerhaj(280, "Hun", 220);
             Console.WriteLine(hammerhaj);
+
+            Dragefisk dragefisk = new Dragefisk(2, "Han", 80);
+            Console.WriteLine(dragefisk);
         }
     }
 }
