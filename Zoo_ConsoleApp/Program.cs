@@ -12,6 +12,9 @@ namespace Zoo_ConsoleApp
 
             Tiger tiger = new Tiger(120, "Han");
             Console.WriteLine(tiger);
+
+            Næbdyr næbdyr = new Næbdyr(28, "Han");
+            Console.WriteLine(næbdyr);
         }
     }
 }

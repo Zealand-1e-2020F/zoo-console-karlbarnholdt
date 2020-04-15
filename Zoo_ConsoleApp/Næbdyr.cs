@@ -4,7 +4,11 @@ using System.Text;
 
 namespace Zoo_ConsoleApp
 {
-    class Næbdyr
+    public class Næbdyr : Pattedyr
     {
+        public Næbdyr(double vægt, string køn) : base("Næbdyr", vægt, køn, true)
+        {
+
+        }
     }
 }
