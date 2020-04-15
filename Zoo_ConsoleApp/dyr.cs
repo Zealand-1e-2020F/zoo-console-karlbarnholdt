@@ -25,7 +25,7 @@ namespace Zoo_ConsoleApp
 
         public override string ToString()
         {
-            return $"En {Name} vejer {Weight} kg. Denne {Name} er en {Køn}.";
+            return $"Denne {Name} vejer {Weight} kg og er en {Køn}.";
         }
 
     }
