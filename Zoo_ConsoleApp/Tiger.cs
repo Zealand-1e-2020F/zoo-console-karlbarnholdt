@@ -4,8 +4,11 @@ using System.Text;
 
 namespace Zoo_ConsoleApp
 {
-    public class Tiger
+    public class Tiger : Pattedyr
     {
-
+        public Tiger(double vægt, string køn) : base("Tiger", vægt, køn, false)
+        {
+            
+        }
     }
 }
