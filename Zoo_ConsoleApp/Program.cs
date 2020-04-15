@@ -40,6 +40,14 @@ namespace Zoo_ConsoleApp
             foreach (var item in dyr)
             {
                 Console.WriteLine(item.ToString());
+                if (item is IRovdyr)
+                {
+                    Console.WriteLine($"En {item.Name} er et rovdyr.");
+                }
+                else
+                {
+                    Console.WriteLine($"En {item.Name} er et byttedyr");
+                }
             }
         }
     }
