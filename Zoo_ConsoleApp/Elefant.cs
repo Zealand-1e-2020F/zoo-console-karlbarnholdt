@@ -9,7 +9,12 @@ namespace Zoo_ConsoleApp
         public int LængdePåStødtænderIcm { get; }
         public Elefant(double vægt, int længdePåStødtænderIcm) : base("Elefant", vægt, false)
         {
-            længdePåStødtænderIcm = LængdePåStødtænderIcm;
+            LængdePåStødtænderIcm = længdePåStødtænderIcm;
+        }
+
+        public override string ToString()
+        {
+            return base.ToString() + $" Denne elefants stødtænder er {LængdePåStødtænderIcm} cm.";
         }
     }
 }
