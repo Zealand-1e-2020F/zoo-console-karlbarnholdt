@@ -6,9 +6,10 @@ namespace Zoo_ConsoleApp
 {
     public class Pattedyr : Dyr
     {
-        public Pattedyr(string navn, double vægt) : base(navn, vægt)
+        public bool LæggerÆg { get; }
+        public Pattedyr(string navn, double vægt, bool læggerÆg) : base(navn, vægt)
         {
-
+            læggerÆg = LæggerÆg;
         }
     }
 }
