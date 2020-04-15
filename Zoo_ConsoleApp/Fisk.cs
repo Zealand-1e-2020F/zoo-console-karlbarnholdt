@@ -13,7 +13,7 @@ namespace Zoo_ConsoleApp
         }
         public override string ToString()
         {
-            return base.ToString() + $" Den er {Længde} cm lang.";
+            return base.ToString() + $" Dens længde er {Længde} cm.";
         }
     }
 }
