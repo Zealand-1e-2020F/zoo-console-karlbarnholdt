@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Zoo_ConsoleApp
 {
-    class Flue : Insekt
+    public class Flue : Insekt
     {
         public Flue(double vægt, string køn) : base("Flue", vægt, køn, false)
         {

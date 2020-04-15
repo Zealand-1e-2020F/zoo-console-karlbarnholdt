@@ -4,7 +4,11 @@ using System.Text;
 
 namespace Zoo_ConsoleApp
 {
-    class Hveps
+    public class Hveps
     {
+        public Hveps(double vægt, string køn) : base("Hveps", vægt, køn, true)
+        {
+
+        }
     }
 }
