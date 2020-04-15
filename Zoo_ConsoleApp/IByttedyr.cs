@@ -4,8 +4,8 @@ using System.Text;
 
 namespace Zoo_ConsoleApp
 {
-    interface IByttedyr
+    public interface IByttedyr
     {
-        bool isPrey();
+        bool ErByttedyr();
     }
 }
