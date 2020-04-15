@@ -11,5 +11,10 @@ namespace Zoo_ConsoleApp
         {
             læggerÆg = LæggerÆg;
         }
+
+        public override string ToString()
+        {
+            return base.ToString() + $" En {Name} lægger æg: {LæggerÆg}.";
+        }
     }
 }
