@@ -21,6 +21,9 @@ namespace Zoo_ConsoleApp
 
             Bjørn peterPlys = new Bjørn(45, "Han", true);
             Console.WriteLine(peterPlys);
+
+            Flue flue = new Flue(0.001, "Han");
+            Console.WriteLine(flue);
         }
     }
 }
