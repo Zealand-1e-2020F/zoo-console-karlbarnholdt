@@ -30,6 +30,9 @@ namespace Zoo_ConsoleApp
 
             Myg myg = new Myg(0.001, "Han");
             Console.WriteLine(myg);
+
+            Mariehøne mariehøne = new Mariehøne(0.0035, "Han");
+            Console.WriteLine(mariehøne);
         }
     }
 }
