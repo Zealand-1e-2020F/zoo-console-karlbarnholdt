@@ -42,6 +42,9 @@ namespace Zoo_ConsoleApp
 
             Dragefisk dragefisk = new Dragefisk(2, "Han", 80);
             Console.WriteLine(dragefisk);
+
+            Ørred ørred = new Ørred(2.2, "Hun", 75);
+            Console.WriteLine(ørred);
         }
     }
 }

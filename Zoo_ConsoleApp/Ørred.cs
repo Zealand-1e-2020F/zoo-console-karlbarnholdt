@@ -4,7 +4,11 @@ using System.Text;
 
 namespace Zoo_ConsoleApp
 {
-    class Ørred
+    public class Ørred : Fisk
     {
+        public Ørred(double vægt, string køn, int længde) : base("Ørred", vægt, køn, længde)
+        {
+
+        }
     }
 }
