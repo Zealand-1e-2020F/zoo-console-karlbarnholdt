@@ -13,7 +13,7 @@ namespace Zoo_ConsoleApp
         public double Weight { get;  }
 
         /// <summary>
-        /// cosntructor som tager dyrenavn som parameter
+        /// cosntructor som tager dyrenavn og vægt som parameter
         /// </summary>
         public Dyr(string navn, double vægt)
         {
