@@ -6,9 +6,10 @@ namespace Zoo_ConsoleApp
 {
     public class Insekt : Dyr
     {
-        public Insekt(string navn, double vægt) : base(navn, vægt)
+        public bool ErGiftig { get; }
+        public Insekt(string navn, double vægt, bool erGiftig) : base(navn, vægt)
         {
-           
+            erGiftig = ErGiftig;
         }
     }
 }
