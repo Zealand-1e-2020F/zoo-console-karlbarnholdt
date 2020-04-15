@@ -10,5 +10,9 @@ namespace Zoo_ConsoleApp
         {
 
         }
+        public override string ToString()
+        {
+            return base.ToString() + " ADVARSEL: DENNE FISK ER MEGET GIFTIG.";
+        }
     }
 }
