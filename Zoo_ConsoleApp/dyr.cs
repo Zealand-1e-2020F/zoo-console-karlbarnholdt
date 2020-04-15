@@ -7,23 +7,25 @@ namespace Zoo_ConsoleApp
     /// <summary>
     /// base klasse for dyr i zoo
     /// </summary>
-    public class Dyr
+    public abstract class Dyr
     {
         public string Name { get; }
         public double Weight { get;  }
+        public string Køn { get; }
 
         /// <summary>
         /// cosntructor som tager dyrenavn og vægt som parameter
         /// </summary>
-        public Dyr(string navn, double vægt)
+        public Dyr(string navn, double vægt, string køn)
         {
             this.Name = navn;
             this.Weight = vægt;
+            this.Køn = køn;
         }
 
         public override string ToString()
         {
-            return $"En {Name} vejer {Weight} kg.";
+            return $"En {Name} vejer {Weight} kg. Denne {Name} er en {Køn}.";
         }
 
     }
