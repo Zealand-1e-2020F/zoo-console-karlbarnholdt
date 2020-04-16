@@ -3,7 +3,7 @@
     /// <summary>
     /// Base class til pattedyr. Nedarver navn, vægt og køn fra Dyr.
     /// </summary>
-    public class Pattedyr : Dyr
+    public abstract class Pattedyr : Dyr
     {
         public bool LæggerÆg { get; }
         /// <summary>
