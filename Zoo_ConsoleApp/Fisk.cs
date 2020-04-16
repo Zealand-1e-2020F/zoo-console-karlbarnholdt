@@ -3,7 +3,7 @@
     /// <summary>
     /// Base class for fisk. Nedarver navn, vægt og køn fra Dyr.
     /// </summary>
-    public class Fisk : Dyr
+    public abstract class Fisk : Dyr
     {
         public int Længde { get; }
         /// <summary>
