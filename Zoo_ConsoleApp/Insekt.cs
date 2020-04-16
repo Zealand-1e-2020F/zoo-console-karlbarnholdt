@@ -3,7 +3,7 @@
     /// <summary>
     /// Base class for insekt. Nedarver navn, vægt og køn fra Dyr.
     /// </summary>
-    public class Insekt : Dyr
+    public abstract class Insekt : Dyr
     {
         public bool ErGiftig { get; }
         /// <summary>
