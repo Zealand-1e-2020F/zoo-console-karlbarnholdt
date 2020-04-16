@@ -1,12 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Zoo_ConsoleApp
+﻿namespace Zoo_ConsoleApp
 {
+    /// <summary>
+    /// Base class for fisk. Nedarver navn, vægt og køn fra Dyr.
+    /// </summary>
     public class Fisk : Dyr
     {
         public int Længde { get; }
+        /// <summary>
+        /// Constructor til fisk der tager fiskens navn, vægt, køn og længde i centimeter som parametre.
+        /// </summary>
+        /// <param name="navn"></param>
+        /// <param name="vægt"></param>
+        /// <param name="køn"></param>
+        /// <param name="længde"></param>
         public Fisk(string navn, double vægt, string køn, int længde) : base(navn, vægt, køn)
         {
             Længde = længde;

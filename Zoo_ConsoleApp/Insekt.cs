@@ -1,12 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Zoo_ConsoleApp
+﻿namespace Zoo_ConsoleApp
 {
+    /// <summary>
+    /// Base class for insekt. Nedarver navn, vægt og køn fra Dyr.
+    /// </summary>
     public class Insekt : Dyr
     {
         public bool ErGiftig { get; }
+        /// <summary>
+        /// Constructor til Insekter som tager insektets navn, vægt, køn og markering af giftig eller ej.
+        /// </summary>
+        /// <param name="navn"></param>
+        /// <param name="vægt"></param>
+        /// <param name="køn"></param>
+        /// <param name="erGiftig"></param>
         public Insekt(string navn, double vægt, string køn, bool erGiftig) : base(navn, vægt, køn)
         {
             ErGiftig = erGiftig;

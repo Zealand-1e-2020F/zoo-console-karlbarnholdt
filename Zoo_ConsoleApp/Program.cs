@@ -46,8 +46,9 @@ namespace Zoo_ConsoleApp
                 }
                 else
                 {
-                    Console.WriteLine($"En {item.Name} er et byttedyr");
+                    Console.WriteLine($"En {item.Name} er et byttedyr.");
                 }
+                Console.WriteLine();
             }
         }
     }
