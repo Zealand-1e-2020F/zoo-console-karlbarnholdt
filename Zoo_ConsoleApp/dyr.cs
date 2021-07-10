@@ -9,26 +9,22 @@ namespace Zoo_ConsoleApp
     /// </summary>
     public class Dyr
     {
-        public string DyreNavn { get; }
+        public string Name { get; }
+        public double Weight { get;  }
 
         /// <summary>
-        /// default constructor
+        /// cosntructor som tager dyrenavn og vægt som parameter
         /// </summary>
-        public Dyr()
+        public Dyr(string navn, double vægt)
         {
-
+            this.Name = navn;
+            this.Weight = vægt;
         }
 
-        /// <summary>
-        /// cosntructor som tager dyrenavn som parameter
-        /// </summary>
-        /// <param name="navn">navnet på typen af dyr</param>
-        public Dyr(string navn)
+        public override string ToString()
         {
-            this.DyreNavn = navn;
-
+            return $"En {Name} vejer {Weight} kg.";
         }
-
 
     }
 }
